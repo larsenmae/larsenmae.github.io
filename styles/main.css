@@ -153,8 +153,9 @@ h2 {
   margin: 1.7rem 0;
   line-height: 1;
   font-weight: 700;
-  /* text-decoration: underline; */
-  /* text-decoration-color: var(--contrast-color); */
+  text-decoration: underline; 
+  text-decoration-color: var(--contrast-color);
+  /* color: var(--contrast-color) */
 }
 
 h3 {
@@ -179,7 +180,7 @@ p {
 
 a {
   color: var(--body-color);
-  text-decoration-color: var(--contrast-color);
+  /* text-decoration-color: var(--contrast-color); */
 }
 
 a:hover {
